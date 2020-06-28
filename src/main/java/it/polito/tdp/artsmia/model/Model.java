@@ -93,7 +93,6 @@ public class Model {
 		List<ArtObject> parziale  = new ArrayList<>();
 		parziale.add(this.idMap.get(sorgente));
 		this.classificazione = this.idMap.get(sorgente).getClassification();
-		System.out.println(this.classificazione+"\n");
 		
 		ricorsione(parziale, max);
 	}
